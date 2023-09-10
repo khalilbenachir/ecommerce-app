@@ -1,5 +1,3 @@
-import { UserButton } from "@clerk/nextjs";
-
 "use client";
 
 import { useEffect } from "react";
@@ -14,5 +12,5 @@ export default function Home() {
     if (!isOpen) onOpen();
   }, [onOpen, isOpen]);
 
-  return <div>root</div>;
+  return null;
 }
