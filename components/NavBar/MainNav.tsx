@@ -12,6 +12,11 @@ const getRoutes = (id: string, pathName: string) => [
     active: pathName === `/${id}`,
   },
   {
+    href: `/${id}/billboards`,
+    label: "Billboards",
+    active: pathName === `/${id}/billboards`,
+  },
+  {
     href: `/${id}/settings`,
     label: "Settings",
     active: pathName === `/${id}/settings`,
